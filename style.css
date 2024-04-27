@@ -1,0 +1,70 @@
+.body{
+    background-color: black;
+    color: white;
+    
+}
+.containerone{
+    max-width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+.brandname{
+    text-decoration: none;
+    color: rgb(145, 82, 36);
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.page{
+    max-width: 85%;
+    margin: 100px auto;
+    padding: auto;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding:40px auto;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;   
+}
+
+.images7,.images8,.images9{
+  object-fit: fill; 
+  width: 50px;
+}
+
+.four{
+    width: 100%;
+    height: 50%;
+    margin: 50px auto; 
+}
+
+.footer .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.footer .brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
